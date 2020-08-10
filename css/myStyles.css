@@ -1,0 +1,17 @@
+body {
+  background-image: linear-gradient(45deg, #cccccc 25%, #dbdbdb 25%, #dbdbdb 50%, #cccccc 50%, #cccccc 75%, #dbdbdb 75%, #dbdbdb 100%);
+  background-size: 28.28px 28.28px;
+}
+
+main {
+  margin-top: 65px;
+}
+
+.blogTitle {
+  text-align: center;
+}
+
+.boxShadow {
+  box-shadow: 5px 5px #000000;
+  border-radius: 5px;
+}
