@@ -26,12 +26,14 @@
     <main role="main" class="container">
 
       <div id="msalTestSite" class="container-fluid">
-        <h1>MSAL Test</h1>
-        <div class="buttons">
+        <div class="btn-group">
             <button id="signInBtn" onclick="SignIn()" class="btn-primary">Sign in</button>
             <button id="signOutBtn" onclick="LogOut()" class="btn-primary">Sign out</button>
         </div>
-        <div class="profileDetails">
+        <div id="userSigninMessage" style="display: none;">
+          <p>Please click sign in to see your profile.</p>
+        </div>
+        <div id="profileDetails" class="profileDetails">
           <h1>MS Graph Profile Details</h1>
           <p><span>Display name: </span><span id="userDisplayName"></span></p>
           <p><span>Given name: </span><span id="userGivenName"></span></p>
