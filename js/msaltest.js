@@ -48,7 +48,6 @@ function CallMsGraph(token) {
          headers: headers
     };
     var graphEndpoint = "https://graph.microsoft.com/v1.0/me";
-
     fetch(graphEndpoint, options)
         .then(function (response) {
              //do something with response
